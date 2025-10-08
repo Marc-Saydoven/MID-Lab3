@@ -1,0 +1,89 @@
+*{
+			padding: 0px;
+			margin: 0px;
+		}
+		#container{
+			width: 1700px;
+			height: 500px;
+			margin:auto;
+		}
+
+
+
+		#container #menu{
+			border: 1px solid rgb(255, 0, 221);
+			margin-top: 20px;	
+			margin-bottom: 20px;		
+		}
+
+		#container #menu ul{			
+			text-align: center;
+		}
+		#container #menu ul li{
+			list-style-type: none;
+			display: inline;
+			padding-left:10px;
+			padding-right:10px;
+		}
+		#container #menu ul li a{
+			text-decoration: none;
+			color: black;
+			font-family: sans-serif;
+		}
+		#container #menu ul li a:hover{
+			background-color: red;
+			color: white;
+		}
+		#container #menu ul li a:active{
+			text-decoration: none;
+			color: black;
+			font-family: sans-serif;
+		}
+		#container #menu ul li a:visited{
+			text-decoration: none;
+			color: black;
+			font-family: sans-serif;
+		}
+
+
+		#container #body-content #left{
+			background-color: rgb(130, 63, 255);
+			width: 200px;
+			height:760px;
+			float: left;
+		}
+		#container #body-content #left ul{			
+			margin-top: 10px;
+		}
+		#container #body-content #left ul li{
+			list-style: none;
+			color:white;
+			text-align: center;
+			font-family: sans-serif;
+			padding: 1px;
+			letter-spacing: 1px;
+		}
+		#container #body-content #left ul li a{
+			text-decoration: none;
+			color:white;
+		}
+
+		#container #body-content #center{
+			background-color: rgb(95, 204, 255);
+			width: 1500px;
+			height:760px;
+			float: left;
+		}
+
+
+
+		#container #footer{
+			width: 1700px;
+			margin-top: 430px;
+			border: 1px solid rgb(255, 0, 221);
+
+		}
+
+		body{
+			background-color: palegoldenrod;
+		}
